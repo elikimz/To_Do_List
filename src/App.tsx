@@ -91,7 +91,7 @@ const App: React.FC = () => {
         {filteredTodos.map((todo, index) => (
           <li key={index} className={`todo-item ${todo.completed ? 'completed' : ''}`}>
             <span onClick={() => dispatch({ type: 'TOGGLE_TODO', index })} className="check-circle">
-              {todo.completed ? '✔️' : '⭕'}
+              {todo.completed ? '✓' : '⚪'}
             </span>
             <span className="todo-text">{todo.text}</span>
             <span onClick={() => handleEditTodo(index)} className="edit-todo">✏️</span>
