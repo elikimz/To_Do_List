@@ -1,6 +1,5 @@
 import React, { useState, useReducer } from 'react';
-import './App.css';
-
+import './App.css'
 
 interface Todo {
   text: string;
