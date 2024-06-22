@@ -96,7 +96,7 @@ const App: React.FC = () => {
             <span className="todo-text">{todo.text}</span>
             <span onClick={() => handleEditTodo(index)} className="edit-todo">✎</span>
             <span onClick={() => dispatch({ type: 'REMOVE_TODO', index })} className="remove-todo">
-              ❌
+            🗑️
             </span>
           </li>
         ))}
