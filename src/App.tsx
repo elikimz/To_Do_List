@@ -18,7 +18,7 @@ const initialState: Todo[] = [
   { text: 'Went to Kamunyaka Primary School ', completed: false },
   { text: ' Joined Chania High School ', completed: false },
   { text: 'Went to Kirinyaga University College', completed: false },
-  { text: 'leave in  Rongai ', completed: false },
+  { text: 'Home area  is Rongai ', completed: false },
   { text: 'Coding is MY Hobbie', completed: false },
 ];
 
