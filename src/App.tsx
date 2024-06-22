@@ -16,10 +16,10 @@ type ActionType =
 const initialState: Todo[] = [
   { text: 'Go to the hospital', completed: true },
   { text: 'Run in the park ', completed: false },
-  { text: 'Eat a meal ', completed: false },
+  { text: ' 10 Minutes Meditation ', completed: false },
   { text: 'Sleep for 1 hour in the afternoon', completed: false },
-  { text: 'Pick up groceries and cook supper', completed: false },
-  { text: 'Drink enough water', completed: false },
+  { text: 'Pick up groceries ', completed: false },
+  { text: 'Read for 1 hour', completed: false },
 ];
 
 const reducer = (state: Todo[], action: ActionType): Todo[] => {
