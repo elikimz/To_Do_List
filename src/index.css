@@ -10,7 +10,7 @@
   text-rendering: optimizeSpeed;
   font-synthesis: weight style;
   -webkit-font-smoothing:subpixel-antialiased;
-  -moz-osx-font-smoothing: auto;
+  -moz-osx-font-smoothing:auto;
 }
 
 a {
