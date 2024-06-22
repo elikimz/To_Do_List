@@ -14,12 +14,12 @@ type ActionType =
   | { type: 'CLEAR_COMPLETED' };
 
 const initialState: Todo[] = [
-  { text: 'Go to the hospital', completed: true },
-  { text: 'Run in the park ', completed: false },
-  { text: ' 10 Minutes Meditation ', completed: false },
-  { text: 'Sleep for 1 hour in the afternoon', completed: false },
-  { text: 'Pick up groceries ', completed: false },
-  { text: 'Read for 1 hour', completed: false },
+  { text: ' Wairimu Elijah Kimani', completed: true },
+  { text: 'Went to Kamunyaka Primary School ', completed: false },
+  { text: ' Joined Chania High School ', completed: false },
+  { text: 'Went to Kirinyaga University College', completed: false },
+  { text: 'leave in  Rongai ', completed: false },
+  { text: 'Coding is MY Hobbie', completed: false },
 ];
 
 const reducer = (state: Todo[], action: ActionType): Todo[] => {
