@@ -1,6 +1,6 @@
 import React, { useState, useReducer } from 'react';
 import './App.css';
-// import headDark from './assets/images/bg-desktop-dark.jpg'
+
 
 interface Todo {
   text: string;
@@ -76,7 +76,7 @@ const App: React.FC = () => {
 
   return (
     <div className="todo-app">
-      {/* image{headDark} */}
+     
       <h1>TODO</h1>
       <form onSubmit={handleAddTodo} className="todo-input">
         <input
